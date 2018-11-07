@@ -30,4 +30,5 @@ module.exports =
   base:
     lib: BASE_IMAGES_LIB
     core: BASE_IMAGES_CORE
-  domain: process.env.DOMAIN || 'www.balena.io'
+  domain: process.env.DOMAIN || 'balena.io'
+  dashboard_domain: 'balena-cloud.com'
